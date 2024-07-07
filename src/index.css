@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  font-size: 1.3rem;
+  background: #7F8DA1;
+  color: white;
+}
+.Header nav a {
+  margin: 0 10px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.Header nav a.active {
+  text-decoration: underline;
+}
+.Footer {
+  background: #7F8DA1;
+  padding: 40px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+.CategoryList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 60px 100px;
+}
+.CategoryList .CategoryItem {
+  flex: 1 1 22%;
+  text-align: center;
+  box-shadow: .5rem .5rem 1rem gray;
+  cursor: pointer;
+  &:hover {
+    background: #F8FFBA;
+  }
+}
+.Filter {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 40px;
+  font-weight: bold;
+}
+.Filter input {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border: 2px solid gray;
+}
+
+.MealList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 40px 100px;
+}
+.MealItem {
+  flex: 1 1 22%;
+  padding: 0 20px;
+  text-align: center;
+  box-shadow: .5rem .5rem 1rem gray;
+  cursor: pointer;
+  &:hover {
+    background: #F8FFBA;
+  }
+}
